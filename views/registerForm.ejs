@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title> Scratch++ 登录 </title>
+
+    <link rel='stylesheet' href='/stylesheets/registerForm.css'/>
+    <link rel="stylesheet" href="/plugins/bootstrap-3.3.7-dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="/plugins/bootstrap-3.3.7-dist/css/bootstrap-theme.css"/>
+
+    <script src="/plugins/jquery-3.2.1.min.js"></script>
+    <script src="/plugins/jquery.arctext.js"></script>
+    <script src="/plugins/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+
+</head>
+<body>
+
+<div id="idRegisterForm">
+    <form>
+        <div class="divOptions">
+            <div class="divLoginOption" onclick="toLogin()">
+                <a id="idLoginOption" class="aOptions" href="#top">登录</a>
+            </div>
+            <div id="idLine1" class="divLine"></div>
+            <div class="divRegisterOption" >
+                <a id="idRegisterOption" class="aOptions" href="#top">注册</a>
+            </div>
+
+        </div>
+        <div id="idLine2" class="divLine"></div>
+        <br/>
+        <div class="divInputBlanks">
+            <p class="pLoginReminder">邮箱/手机号码</p>
+            <input class="inputText" type="text" name="email_cellphone"/>
+
+            <p class="pLoginReminder">密码</p>
+            <input class="inputText" type="password" name="password"/>
+            <p class="pLoginReminder">密码确认</p>
+            <input class="inputText" type="password" name="password_"/>
+        </div>
+        <div class="divSubmit">
+            <button class="buttonSubmit" type="submit">确认</button>
+        </div>
+    </form>
+</div>
+
+
+</body>
+</html>

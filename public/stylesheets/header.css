@@ -1,0 +1,77 @@
+.divHeader{
+    background-color:#fbde5e ;
+    /*padding-left:40px;*/
+    height:60px;
+    margin-bottom:50px;
+    overflow:hidden;
+}
+
+.ulHeader li{
+    list-style-type: none;
+    float:left;
+    top:5px;
+    text-align:center;
+}
+
+.liUser{
+    margin-left:30px;
+}
+
+.pTitle{
+    float:left;
+    margin:5px;
+    margin-left:12px;
+    margin-right:30px;
+    width:120px;
+    font-size:32px;
+    font-family: "Buxton Sketch";
+    color: #e87772;
+}
+
+.aGuidance{
+    font-size:27px;
+    font-family: 微软雅黑;
+    color: #5f5a4e;
+    text-decoration: none;
+    margin-left:60px;
+    margin-right:60px;
+}
+
+.aGuidance{
+    position: relative;
+    top:10px;
+}
+
+
+
+.imgMascot{
+    border-radius:50%;
+    width:120px;
+    height:120px;
+    margin-left:30px;
+    margin-right:30px;
+    position: relative;
+    top:20px;
+}
+
+.spanUser,.imgPortrait{
+    position:relative;
+    top:12px;
+}
+
+.imgPortrait{
+    border-radius:50%;
+    width:30px;
+    height:30px;
+}
+
+
+#idMascot{
+    overflow:visible;
+}
+
+.divMascot{
+    position:absolute;
+    left:550px;
+    z-index:999;
+}

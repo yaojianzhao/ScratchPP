@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title> Scratch++ 登录 </title>
+
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+    <link rel='stylesheet' href='/stylesheets/login.css'/>
+    <link rel="stylesheet" href="/plugins/bootstrap-3.3.7-dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="/plugins/bootstrap-3.3.7-dist/css/bootstrap-theme.css"/>
+
+    <script src="/plugins/jquery-3.2.1.min.js"></script>
+    <script src="/plugins/jquery.arctext.js"></script>
+    <script src="/plugins/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <script src="/javascripts/login.js"></script>
+    <script src="/javascripts/registerForm.js"></script>
+
+</head>
+<body>
+
+<div id="idHeader">
+    <%include header.ejs%>
+</div>
+
+<br/>
+<br/>
+
+<div id="idMainBody" class="container">
+    <div class="row">
+        <div id="idForm"class="col-md-4 col-md-offset-1">
+            <%include loginForm.ejs%>
+        </div>
+        <div id="idSide"class="col-md-2 col-md-offset-1">
+            <br/><br/>
+            <%include thirdLogin.ejs%>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+#idLoginForm,#idRegisterForm,#idForgetPasswordForm{
+    margin:20px;
+    padding-bottom:20px;
+    border-width:4px;
+    border-style:solid;
+    border-radius: 20px;
+    border-color: #fbde5e;
+    width:300px;
+    height:auto;
+    box-shadow: 0 0 4px 4px rgba(0,0,0,.2);
+    font-family: 微软雅黑;
+}
+
+.divOptions,.divFormHeader{
+    height:50px;
+}
+
+
+.aOptions{
+    width:150px;
+    font-size:24px;
+    text-decoration: none;
+    margin:45px;
+    position: relative;
+    top:10px;
+}
+
+.divLine{
+    background-color: #e9ddaa;
+}
+
+.divInputBlanks{
+    width:240px;
+    position: relative;
+    margin:0 auto;
+}
+
+.inputText{
+    width:240px;
+    height:36px;
+    border-radius: 5px;
+    margin-top:2px;
+    margin-bottom: 22px;
+    font-size:24px;
+}
+
+.divSubmit{
+    width:130px;
+    position: relative;
+    margin:0 auto;
+}
+
+.buttonSubmit{
+    width:130px;
+    height:50px;
+    margin-top:20px;
+    background-color: #fbde5e;
+    border-radius:6px;
+    font-size:20px;
+    font-weight: bolder;
+    color: #433e36;
+}
+
+
+
+#idLine1{
+    float:left;
+    width:2px;
+    height:50px;
+}
+#idLine2{
+    width:292px;
+    height:2px;
+}

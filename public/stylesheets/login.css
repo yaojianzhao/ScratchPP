@@ -1,0 +1,233 @@
+body{
+    margin:0px;
+    padding:0px;
+    overflow: auto;
+    width:auto;
+    overflow-x:scroll;
+    white-space:nowrap;
+}
+
+
+.container{
+    margin:0px;
+    padding:0px;
+}
+
+.row{
+    margin:0px;
+    padding:0px;
+}
+
+div{
+    margin:0px;
+    padding:0px;
+}
+
+.spanTitle{
+    font-size:40px;
+    font-family: "Buxton Sketch";
+    color: #e87772;
+}
+
+
+.ulHeader li{
+    list-style-type: none;
+    float:left;
+    top:10px;
+    text-align:center;
+}
+
+
+.divHeader{
+    background-color:#fbde5e ;
+    /*padding-left:40px;*/
+    height:60px;
+    margin-bottom:30px;
+}
+.divHeaderBg{
+    position: absolute;
+    height:70px;
+    width:100%;
+    background-color: #fbde5e;
+    z-index: -999;
+}
+
+
+
+/*.divLeftDir{*/
+    /*float:left;*/
+/*}*/
+
+/*.divRightDir{*/
+    /*float:left;*/
+/*}*/
+
+.divUserInfo{
+    float:right;
+    margin-right:40px;
+}
+
+.divMascot{
+    float:left;
+
+}
+
+.pTitle{
+    float:left;
+    margin:5px;
+    margin-left:12px;
+    margin-right:30px;
+    width:120px;
+    font-size:32px;
+    font-family: "Buxton Sketch";
+    color: #e87772;
+}
+
+.divMainBody{
+    margin-top:100px;
+    margin-left:200px;
+    border-width:4px;
+    border-style:solid;
+    border-radius: 20px;
+    border-color: #fbde5e;
+    width:300px;
+    height:360px;
+    box-shadow: 0 0 4px 4px rgba(0,0,0,.2);
+    font-family: 微软雅黑;
+}
+
+
+.divOptions{
+     height:50px;
+ }
+
+.divInputBlanks{
+    width:240px;
+    position: relative;
+    margin:0 auto;
+}
+
+.divLine{
+    background-color: #e9ddaa;
+}
+#idLine1{
+    float:left;
+    width:2px;
+    height:50px;
+}
+#idLine2{
+    width:292px;
+    height:2px;
+}
+
+.divRightFloat{
+    float:right;
+    position: relative;
+    left:-500px;
+    top:100px;
+}
+
+.inputText{
+    width:240px;
+    height:36px;
+    border-radius: 5px;
+    margin-top:2px;
+    margin-bottom: 22px;
+    font-size:24px;
+}
+
+.divSubmit{
+    width:130px;
+    position: relative;
+    margin:0 auto;
+}
+
+.buttonSubmit{
+    width:130px;
+    height:50px;
+    margin-top:20px;
+    background-color: #fbde5e;
+    border-radius:6px;
+    font-size:20px;
+    font-weight: bolder;
+    color: #433e36;
+}
+
+.aGuidance{
+    font-size:27px;
+    font-family: 微软雅黑;
+    color: #5f5a4e;
+    text-decoration: none;
+
+
+    margin-left:60px;
+    margin-right:60px;
+}
+
+
+.aOptions{
+    width:150px;
+    font-size:24px;
+    text-decoration: none;
+    margin:45px;
+    position: relative;
+    top:10px;
+}
+
+#idLoginOption{
+    color:#5f5a4e;
+    font-weight: bolder;
+}
+
+#idRegisterOption{
+    color:#fbde5e;
+    font-weight: bolder;
+}
+
+.divLoginOption{
+    float:left;
+    height:inherit;
+    width:150px;
+    border-top-left-radius: 12px;
+    background-color: #fbde5e;
+
+}
+
+.divRegisterOption{
+    height:inherit;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    background-color: #fff;
+
+}
+
+.imgMascot{
+    border-radius:50%;
+    width:120px;
+    height:120px;
+    margin-left:30px;
+    margin-right:30px;
+    position: relative;
+    top:20px;
+}
+
+.imgPortrait{
+    border-radius:50%;
+    width:30px;
+    height:30px;
+}
+
+
+.spanLoginText{
+    color:#000;
+    margin:10px;
+    font-size:20px;
+}
+
+.divWeChatLogin{
+    margin:50px;
+}
+
+.divQQLogin{
+    margin:50px;
+}

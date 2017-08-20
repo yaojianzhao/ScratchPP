@@ -1,0 +1,25 @@
+#idHomepageFooter{
+    background-color: #878181;
+    margin-top:50px;
+    padding:5px 30px;
+}
+
+.divFooterLeft{
+    white-space:normal;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+.divFooterRight{
+    border-left:solid 1px;
+    border-color: #7c7978;
+}
+
+.h4FooterSubTitle,.pFooterText{
+    color:#fff;
+}
+
+.imgQRCode{
+    width:120px;
+    height:120px;
+}

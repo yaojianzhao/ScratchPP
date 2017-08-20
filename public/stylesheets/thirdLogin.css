@@ -1,0 +1,17 @@
+.divWeChatLogin{
+    margin:40px;
+}
+
+.divQQLogin{
+    margin:40px;
+}
+
+.spanLoginText{
+    color:#000;
+    margin:10px;
+    font-size:20px;
+    position: relative;
+    top:50%;
+    font-family:微软雅黑;
+    font-weight:bolder;
+}

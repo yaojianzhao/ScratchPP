@@ -1,0 +1,26 @@
+@import "form.css";
+
+.divLoginOption{
+    float:left;
+    height:inherit;
+    width:150px;
+    border-top-left-radius: 12px;
+    background-color: #fbde5e;
+}
+
+.divRegisterOption{
+    height:inherit;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    background-color: #fff;
+}
+
+#idLoginOption{
+    color:#5f5a4e;
+    font-weight: bolder;
+}
+
+#idRegisterOption{
+    color:#fbde5e;
+    font-weight: bolder;
+}
